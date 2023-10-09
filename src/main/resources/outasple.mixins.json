@@ -1,0 +1,12 @@
+{
+    "required": true,
+    "package": "net.octyl.mc.outasple.mixin",
+    "compatibilityLevel": "JAVA_17",
+    "mixins": [
+        "DenySaveMixin",
+        "HookNormalSleepLogicMixin"
+    ],
+    "injectors": {
+        "defaultRequire": 1
+    }
+}
